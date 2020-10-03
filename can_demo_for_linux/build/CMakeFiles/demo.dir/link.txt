@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -march=native -O3 -pthread   CMakeFiles/demo.dir/src/main.cpp.o  -o ../bin/demo  -L/home/chen/桌面/can_demo/libs ../libs/ControlCAN.lib -lcontrolcan -Wl,-rpath,/home/chen/桌面/can_demo/libs 

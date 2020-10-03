@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/controlcan.h
+
+/home/chen/桌面/can_demo/src/main.cpp
+controlcan.h
+/home/chen/桌面/can_demo/src/controlcan.h
+unistd.h
+-
+stdio.h
+-
+pthread.h
+-
+
